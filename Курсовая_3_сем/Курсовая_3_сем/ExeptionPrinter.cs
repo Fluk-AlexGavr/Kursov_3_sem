@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace Курсовая_3_сем
 {
-    internal class ExeptionPrinter
+    public static class ExceptionPrinter
     {
+        public static void Print(string ex)
+        {
+            GetString(ex.ToString());
+        }
+
+        private static void GetString(string str)
+        {
+            throw new Exception(str);
+        }
     }
 }

@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace Курсовая_3_сем
 {
-    internal class PrintForUser
+    public static class PrinterForUser
     {
+        static readonly string dataLost = "Данные отсутствуют";
+        private static void Printer(string? str)
+        {
+            Console.WriteLine(str);
+        }
+        public static void Print(string? str)
+        {
+            Printer(str ?? dataLost);
+        }
     }
 }
