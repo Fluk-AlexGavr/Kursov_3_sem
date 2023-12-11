@@ -8,8 +8,18 @@ namespace Курсовая_3_сем
 {
     public abstract class Human
     {
-        public abstract string Name { get; set; }
-        public int Id { get; set; }
+        public abstract string Login { get; set; }
         public abstract void LogInToAccount();
+        public abstract string ReturnRights();
+
+        private static int idCounter;// = IDController.IdControll(University.students);
+        public int id;
+
+        public Human()
+        {
+            id = idCounter;
+            idCounter++;
+            //Queue.AddHuman(this);
+        }
     }
 }

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Курсовая_3_сем
 {
-    internal class Queue
+    public class Queue
     {
+        public static List<Human> humans;
     }
 }
