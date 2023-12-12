@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "s5IRYWIc2UAx0cd8OvyzRmNf4lGzq4c2GMuZ1teaTgB21L3G03fA6sl0bkfkHSsFzPk8hZz90cVP/vVV6PbGBg==",
+  "dgSpecHash": "/ZH8w3ms1w9xUe9SUV8d/BpUzSnIZO3nQ6D+femldA4mFn41pouonj1LyIxIDUiP1brO6QGLhvS76X0o4lKzCw==",
   "success": true,
   "projectFilePath": "C:\\Users\\alesh\\OneDrive\\Desktop\\лабы\\2 курс\\ООП\\курсовая\\Kursov_3_sem\\Курсовая_3_сем\\Курсовая_3_сем\\Курсовая_3_сем.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\alesh\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\alesh\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\alesh\\.nuget\\packages\\npgsql\\8.0.1\\npgsql.8.0.1.nupkg.sha512",
+    "C:\\Users\\alesh\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
+    "C:\\Users\\alesh\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\alesh\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\alesh\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

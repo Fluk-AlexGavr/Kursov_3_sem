@@ -13,3 +13,11 @@ C:\Users\alesh\OneDrive\Desktop\лабы\2 курс\ООП\курсовая\Kurs
 C:\Users\alesh\OneDrive\Desktop\лабы\2 курс\ООП\курсовая\Kursov_3_sem\Курсовая_3_сем\Курсовая_3_сем\obj\Debug\net6.0\Курсовая_3_сем.pdb
 C:\Users\alesh\OneDrive\Desktop\лабы\2 курс\ООП\курсовая\Kursov_3_sem\Курсовая_3_сем\Курсовая_3_сем\obj\Debug\net6.0\Курсовая_3_сем.genruntimeconfig.cache
 C:\Users\alesh\OneDrive\Desktop\лабы\2 курс\ООП\курсовая\Kursov_3_sem\Курсовая_3_сем\Курсовая_3_сем\obj\Debug\net6.0\ref\Курсовая_3_сем.dll
+C:\Users\alesh\OneDrive\Desktop\лабы\2 курс\ООП\курсовая\Kursov_3_sem\Курсовая_3_сем\Курсовая_3_сем\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\alesh\OneDrive\Desktop\лабы\2 курс\ООП\курсовая\Kursov_3_sem\Курсовая_3_сем\Курсовая_3_сем\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\alesh\OneDrive\Desktop\лабы\2 курс\ООП\курсовая\Kursov_3_sem\Курсовая_3_сем\Курсовая_3_сем\bin\Debug\net6.0\Npgsql.dll
+C:\Users\alesh\OneDrive\Desktop\лабы\2 курс\ООП\курсовая\Kursov_3_sem\Курсовая_3_сем\Курсовая_3_сем\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\alesh\OneDrive\Desktop\лабы\2 курс\ООП\курсовая\Kursov_3_sem\Курсовая_3_сем\Курсовая_3_сем\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\alesh\OneDrive\Desktop\лабы\2 курс\ООП\курсовая\Kursov_3_sem\Курсовая_3_сем\Курсовая_3_сем\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\alesh\OneDrive\Desktop\лабы\2 курс\ООП\курсовая\Kursov_3_sem\Курсовая_3_сем\Курсовая_3_сем\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\alesh\OneDrive\Desktop\лабы\2 курс\ООП\курсовая\Kursov_3_sem\Курсовая_3_сем\Курсовая_3_сем\obj\Debug\net6.0\Курсовая_3_сем.csproj.CopyComplete

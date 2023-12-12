@@ -8,29 +8,37 @@
             Account account = new();
             for(; ; )
             {
+                string str;
                 PrinterForUser.Print("Здравствуйте, выберите действие: \n1 - Авторизация \n2 - Регистрация \n3 - Просмотр очереди");
-                SelectAction();
+                str = SelectAction();
+                if(str == "autorization")
+                    DeleteAccount();
             }
         }
 
-        private static void SelectAction()
+        private static string SelectAction()
         {
             Account account = new();
-            string selectAction = EnterData.StringData();
             
+            string selectAction = EnterData.StringData();
+
             if (selectAction == "1")
             {
                 AutorizationData();
+                return "autorization";
             }
             else if (selectAction == "2")
             {
                 Human newHum = RegistrationData();
                 account.CreateNewAccount(newHum);
+                return "registration";
             }
             else if (selectAction == "3")
             {
                 ShowQueue(Queue.ReturnHumanList());
+                return "showQueue";
             }
+            else return "Nothing";
         }
 
         private static Human RegistrationData()
@@ -56,7 +64,7 @@
             PrinterForUser.Print("Введите пароль");
             string password = EnterData.StringData();
             Account account = new();
-            Human autoriztionAccount = account.Autorization(Queue.ReturnHumanList(), new Visitor(login, password, "10"));
+            Human autoriztionAccount = account.Autorization(Queue.ReturnHumanList(), new Visitor(login, password, "0001 01 01 01 01 01"));
             if (autoriztionAccount is not null)
                 PrinterForUser.Print($"{autoriztionAccount.Login}, вы записаны на {autoriztionAccount.StringTime}");
             else
@@ -68,6 +76,21 @@
             foreach(Human human in list)
             {
                 PrinterForUser.Print($"{human.id}, {human.Login}, {human.StringTime}, {human.ReturnRights()}");
+            }
+        }
+
+        private static void DeleteAccount()
+        {
+            Account account = new();
+            PrinterForUser.Print("Хотите удалить аккаунт? Введите 0");
+            string str = EnterData.StringData();
+            if(str == "0")
+            {
+                PrinterForUser.Print("Введите логин");
+                string login = EnterData.StringData();
+                PrinterForUser.Print("Введите пароль");
+                string password = EnterData.StringData();
+                account.DeleteAccount(new Visitor(login, password, "0001 01 01 01 01 01"));
             }
         }
     }
