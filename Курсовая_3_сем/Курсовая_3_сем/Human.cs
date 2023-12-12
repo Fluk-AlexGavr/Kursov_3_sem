@@ -11,16 +11,18 @@ namespace Курсовая_3_сем
         public abstract string Login { get; set; }
         public abstract string Password { get; set; }
         public abstract string StringTime { get; set; }
+        public virtual DateTime Time { get; set; } 
         public abstract string ReturnRights();
 
-        private static int idCounter = IDController.IdControll(Queue.humans);
+        private static int idCounter = IDController.IdControll(Queue.ReturnHumanList());
         public int id;
+
+        
 
         public Human()
         {
             id = idCounter;
             idCounter++;
-            Queue.AddHuman(this);
         }
     }
 }

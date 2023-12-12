@@ -8,11 +8,13 @@ namespace Курсовая_3_сем
 {
     public static class Queue
     {
-        public static List<Human> humans;
+        private static List<Human> humans = new();
 
         public static void AddHuman(Human human)
         {
             humans.Add(human);
+
+            //дописать добавление в базу
             //CollectString.CollectStr(students);  
         }
 
@@ -25,12 +27,27 @@ namespace Курсовая_3_сем
                 if (hum.Login == human.Login)
                 {
                     humans.RemoveAt(count);
+                    //дописать удаление из базы
                     //CollectString.CollectStr(students);
                     break;
                 }
                 count++;
             }
         }
+
+        public static List<Human> ReturnHumanList()
+        {
+            SortList();
+            return humans;
+        }
+
+        public static void SortList()
+        {
+            humans.Sort((x, y) => DateTime.Compare(x.Time, y.Time));
+            //Сортировка по времени
+        }
+
+        
 
         
     }

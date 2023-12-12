@@ -42,5 +42,13 @@ namespace Курсовая_3_сем
         {
             return "visitor";
         }
+        public override DateTime Time { get; set; }
+        public Visitor(string login, string password, string stringTime)
+        {
+            Login = login;
+            Password = password;
+            StringTime = stringTime;
+            Time = StringTimeConverter.StringToTime(this);
+        }
     }
 }

@@ -9,15 +9,18 @@ namespace Курсовая_3_сем
 {
     public class Account
     {
-        public void Autorization(List<Human> humans, Human human)
+        public Human? Autorization(List<Human> humans, Human human)
         {
             foreach (Human hum in humans)
             {
                 if (human.Login == hum.Login && human.Password == hum.Password)
                 {
                     //вход в акк
+                    return hum;
                 }
+                
             }
+            return null;
         }
         public void CreateNewAccount(Human human)
         {

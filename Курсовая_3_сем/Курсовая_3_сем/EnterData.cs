@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace Курсовая_3_сем
 {
-    public class EnterData
+    public static class EnterData
     {
-        public string EntData()
+        public static string EntData()
         {
             string str = Console.ReadLine();
             return str; 
             
         }
-        public string StringData()
+        public static string StringData()
         {
             return EntData();
         }
-        public int IntData(string str)
+        public static int IntData(string str)
         {
             int i = 0;
             try
@@ -32,7 +32,7 @@ namespace Курсовая_3_сем
                 return i;
             }
         }
-        public double DoubleData(string str)
+        public static double DoubleData(string str)
         {
             double i = 0;
             try

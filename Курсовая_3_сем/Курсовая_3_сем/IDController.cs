@@ -11,14 +11,21 @@ namespace Курсовая_3_сем
         public static int IdControll(List<Human> humans)
         {
             int max = -1;
-            for (int i = 0; i < humans.Count; i++)
+            if(humans is null)
             {
-                if (max < humans[i].id)
-                {
-                    max = humans[i].id;
-                }
+                return 0;
             }
-            return max + 1;
+            else
+            {
+                for (int i = 0; i < humans.Count; i++)
+                {
+                    if (max < humans[i].id)
+                    {
+                        max = humans[i].id;
+                    }
+                }
+                return max + 1;
+            }
         }
     }
 }

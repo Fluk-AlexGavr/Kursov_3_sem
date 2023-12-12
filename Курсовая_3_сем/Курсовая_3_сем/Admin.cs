@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Курсовая_3_сем
 {
-    internal class Admin : Human
+    public class Admin : Human
     {
         public override string Login
         {
@@ -28,15 +28,29 @@ namespace Курсовая_3_сем
             }
         }
         private string password;
-        public override string StringTime 
+        public override string StringTime
         {
-            get => "admin не является посетителем";
-            set{}
+            get => stringTime;
+            set
+            {
+                if (!String.IsNullOrEmpty(value)) stringTime = value;
+                else ExceptionPrinter.Print("Время не может быть пустым");
+            }
         }
-        
+        private string stringTime;
+        public override DateTime Time { get; set; }
         public override string ReturnRights()
         {
             return "admin";
         }
+        public Admin(string login, string password, string stringTime)
+        {
+            Login = login;
+            Password = password;
+            StringTime = stringTime;
+            Time = StringTimeConverter.StringToTime(this);
+        }
+
+
     }
 }

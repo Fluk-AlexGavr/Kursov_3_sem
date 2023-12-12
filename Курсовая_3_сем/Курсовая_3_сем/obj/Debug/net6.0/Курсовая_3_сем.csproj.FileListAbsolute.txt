@@ -1,0 +1,15 @@
+C:\Users\alesh\OneDrive\Desktop\лабы\2 курс\ООП\курсовая\Kursov_3_sem\Курсовая_3_сем\Курсовая_3_сем\bin\Debug\net6.0\Курсовая_3_сем.exe
+C:\Users\alesh\OneDrive\Desktop\лабы\2 курс\ООП\курсовая\Kursov_3_sem\Курсовая_3_сем\Курсовая_3_сем\bin\Debug\net6.0\Курсовая_3_сем.deps.json
+C:\Users\alesh\OneDrive\Desktop\лабы\2 курс\ООП\курсовая\Kursov_3_sem\Курсовая_3_сем\Курсовая_3_сем\bin\Debug\net6.0\Курсовая_3_сем.runtimeconfig.json
+C:\Users\alesh\OneDrive\Desktop\лабы\2 курс\ООП\курсовая\Kursov_3_sem\Курсовая_3_сем\Курсовая_3_сем\bin\Debug\net6.0\Курсовая_3_сем.dll
+C:\Users\alesh\OneDrive\Desktop\лабы\2 курс\ООП\курсовая\Kursov_3_sem\Курсовая_3_сем\Курсовая_3_сем\bin\Debug\net6.0\Курсовая_3_сем.pdb
+C:\Users\alesh\OneDrive\Desktop\лабы\2 курс\ООП\курсовая\Kursov_3_sem\Курсовая_3_сем\Курсовая_3_сем\obj\Debug\net6.0\Курсовая_3_сем.csproj.AssemblyReference.cache
+C:\Users\alesh\OneDrive\Desktop\лабы\2 курс\ООП\курсовая\Kursov_3_sem\Курсовая_3_сем\Курсовая_3_сем\obj\Debug\net6.0\Курсовая_3_сем.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alesh\OneDrive\Desktop\лабы\2 курс\ООП\курсовая\Kursov_3_sem\Курсовая_3_сем\Курсовая_3_сем\obj\Debug\net6.0\Курсовая_3_сем.AssemblyInfoInputs.cache
+C:\Users\alesh\OneDrive\Desktop\лабы\2 курс\ООП\курсовая\Kursov_3_sem\Курсовая_3_сем\Курсовая_3_сем\obj\Debug\net6.0\Курсовая_3_сем.AssemblyInfo.cs
+C:\Users\alesh\OneDrive\Desktop\лабы\2 курс\ООП\курсовая\Kursov_3_sem\Курсовая_3_сем\Курсовая_3_сем\obj\Debug\net6.0\Курсовая_3_сем.csproj.CoreCompileInputs.cache
+C:\Users\alesh\OneDrive\Desktop\лабы\2 курс\ООП\курсовая\Kursov_3_sem\Курсовая_3_сем\Курсовая_3_сем\obj\Debug\net6.0\Курсовая_3_сем.dll
+C:\Users\alesh\OneDrive\Desktop\лабы\2 курс\ООП\курсовая\Kursov_3_sem\Курсовая_3_сем\Курсовая_3_сем\obj\Debug\net6.0\refint\Курсовая_3_сем.dll
+C:\Users\alesh\OneDrive\Desktop\лабы\2 курс\ООП\курсовая\Kursov_3_sem\Курсовая_3_сем\Курсовая_3_сем\obj\Debug\net6.0\Курсовая_3_сем.pdb
+C:\Users\alesh\OneDrive\Desktop\лабы\2 курс\ООП\курсовая\Kursov_3_sem\Курсовая_3_сем\Курсовая_3_сем\obj\Debug\net6.0\Курсовая_3_сем.genruntimeconfig.cache
+C:\Users\alesh\OneDrive\Desktop\лабы\2 курс\ООП\курсовая\Kursov_3_sem\Курсовая_3_сем\Курсовая_3_сем\obj\Debug\net6.0\ref\Курсовая_3_сем.dll
