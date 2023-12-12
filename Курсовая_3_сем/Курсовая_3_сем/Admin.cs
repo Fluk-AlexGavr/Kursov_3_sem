@@ -18,12 +18,22 @@ namespace Курсовая_3_сем
             }
         }
         private string login;
-
-        public override void LogInToAccount()
+        public override string Password
         {
-
+            get => password;
+            set
+            {
+                if (!String.IsNullOrEmpty(value)) password = value;
+                else ExceptionPrinter.Print("Пароль не может быть пустым");
+            }
         }
-
+        private string password;
+        public override string StringTime 
+        {
+            get => "admin не является посетителем";
+            set{}
+        }
+        
         public override string ReturnRights()
         {
             return "admin";

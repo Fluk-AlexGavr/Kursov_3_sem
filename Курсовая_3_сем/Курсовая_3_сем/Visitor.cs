@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Курсовая_3_сем
 {
-    internal class Visitor : Human
+    public class Visitor : Human
     {
         public override string Login 
         { 
@@ -18,12 +18,26 @@ namespace Курсовая_3_сем
             }
         }
         private string login;
-
-        public override void LogInToAccount()
-        {
-            
+        public override string Password 
+        { 
+            get => password;
+            set 
+            {
+                if (!String.IsNullOrEmpty(value)) password = value;
+                else ExceptionPrinter.Print("Пароль не может быть пустым");
+            }
         }
-
+        private string password;
+        public override string StringTime
+        {
+            get => stringTime;
+            set
+            {
+                if (!String.IsNullOrEmpty(value)) stringTime = value;
+                else ExceptionPrinter.Print("Время не может быть пустым");
+            }
+        }
+        private string stringTime;
         public override string ReturnRights()
         {
             return "visitor";
