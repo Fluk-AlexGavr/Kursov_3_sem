@@ -63,8 +63,10 @@
             string login = EnterData.StringData();
             PrinterForUser.Print("Введите пароль");
             string password = EnterData.StringData();
+
             Account account = new();
-            Human autoriztionAccount = account.Autorization(Queue.ReturnHumanList(), new Visitor(login, password, "0001 01 01 01 01 01"));
+            Human autoriztionAccount = account.Autorization(Queue.ReturnHumanList(), new Visitor(login, password));
+            
             if (autoriztionAccount is not null)
                 PrinterForUser.Print($"{autoriztionAccount.Login}, вы записаны на {autoriztionAccount.StringTime}");
             else
@@ -90,7 +92,7 @@
                 string login = EnterData.StringData();
                 PrinterForUser.Print("Введите пароль");
                 string password = EnterData.StringData();
-                account.DeleteAccount(new Visitor(login, password, "0001 01 01 01 01 01"));
+                account.DeleteAccount(new Visitor(login, password));
             }
         }
     }

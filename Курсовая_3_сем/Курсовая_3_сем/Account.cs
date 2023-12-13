@@ -15,7 +15,6 @@ namespace Курсовая_3_сем
             {
                 if (human.Login == hum.Login && human.Password == hum.Password)
                 {
-                    //вход в акк
                     return hum;
                 }
                 

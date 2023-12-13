@@ -50,7 +50,13 @@ namespace Курсовая_3_сем
             StringTime = stringTime;
             Time = StringTimeConverter.StringToTime(this);
         }
-
-
+        public Admin(int id, string login, string password, string stringTime)
+        {
+            this.id = id;
+            Login = login;
+            Password = password;
+            StringTime = stringTime;
+            Time = StringTimeConverter.StringToTime(this);
+        }
     }
 }
